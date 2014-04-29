@@ -1,0 +1,9 @@
+Building EnergyCoin
+
+See doc/readme-qt.rst for instructions on building EnergyCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of EnergyCoin.
+
+See doc/build-*.txt for instructions on building EnergyCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of EnergyCoin.
