@@ -25,6 +25,8 @@ class CInv;
 class CRequestTracker;
 class CNode;
 
+static const int LAST_POW_BLOCK = 52;
+
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
@@ -47,7 +49,7 @@ static const int fHaveUPnP = true;
 static const int fHaveUPnP = false;
 #endif
 
-static const uint256 hashGenesisBlockOfficial("0x00000219a9ed8bebe5ce24709d675a36edfa6599e4ca33acf9ca26a5865137da");
+static const uint256 hashGenesisBlockOfficial("0x00000a5ac2dc57cfb0b92bc8be7731fe6a94a8c1c49a0d2f32e9e2da4f7d2308");
 static const uint256 hashGenesisBlockTestNet ("0x");
 
 static const int64 nMaxClockDrift = 2 * 60 * 60;        // two hours
