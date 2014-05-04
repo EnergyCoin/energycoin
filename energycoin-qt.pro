@@ -1,3 +1,4 @@
+
 TEMPLATE = app
 TARGET = energycoin-qt
 VERSION = 0.7.2
