@@ -17,15 +17,7 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 #    BOOST_INCLUDE_PATH, BOOST_LIB_PATH, BDB_INCLUDE_PATH,
 #    BDB_LIB_PATH, OPENSSL_INCLUDE_PATH and OPENSSL_LIB_PATH respectively
 
-BOOST_LIB_SUFFIX=-mgw48-mt-s-1_50 
-BOOST_INCLUDE_PATH=C:/boost-1.50.0-mgw
-BOOST_LIB_PATH=C:/boost-1.50.0-mgw/stage/lib
-BDB_INCLUDE_PATH=C:/db-4.8.30.NC-mgw/build_unix
-BDB_LIB_PATH=C:/db-4.8.30.NC-mgw/build_unix
-OPENSSL_INCLUDE_PATH=C:/openssl-1.0.1g/include
-OPENSSL_LIB_PATH=C:/openssl-1.0.1g
-MINIUPNPC_INCLUDE_PATH=C:/
-MINIUPNPC_LIB_PATH=C:/miniupnpc-1.6-mgw
+
 
 OBJECTS_DIR = build
 MOC_DIR = build
