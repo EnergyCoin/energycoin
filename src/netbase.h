@@ -117,10 +117,7 @@ class CService : public CNetAddr
         std::string ToStringIPPort() const;
         void print() const;
 
-#ifdef USE_IPV6
-        CService(const struct in6_addr& ipv6Addr, unsigned short port);
-        CService(const struct sockaddr_in6& addr);
-#endif
+
 
         IMPLEMENT_SERIALIZE
             (
