@@ -1,7 +1,7 @@
 
 EnergyCoin - ENRG
 
-EnergyCoin is a pure PoS coin which generates coins through PoS blocks. Except the first block where it generates the initial 101 million coins, no PoW mining will get any coins. The 1 billion coins will be distributed equally to 1000 individuals with 1 million coins each, all every person has to do is post it on our facebook, twitter or reddit page, and add a signature to btctalk profile. Its easy and free!
+EnergyCoin is a pure PoS coin which generates coins through PoS blocks. Except the first block where it generates the initial 101 million coins, no PoW mining will get any coins. All every person has to do is post it on our facebook, twitter or reddit page, and add a signature to btctalk profile. Its easy and free!
 
 After distribution is over energycoin is  mineable by simply running your wallet. Thus a huge mining cost of hardware and millions of electricity costs are saved.
 
