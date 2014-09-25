@@ -400,7 +400,9 @@ bool WalletModel::getPubKey(const CKeyID &address, CPubKey& vchPubKeyOut) const
      BOOST_FOREACH(const COutPoint& outpoint, vOutpoints)
      {
          if (!wallet->mapWallet.count(outpoint.hash)) continue;
-         COutput out(&wallet->mapWallet[outpoint.hash], outpoint.n, wallet->mapWallet[outpoint.hash].GetDepthInMainChain());
+         int nDepth = wallet->mapWallet[outpoint.hash].GetDepthInMainChain();
+         if (nDepth < 0) continue;
+         COutput out(&wallet->mapWallet[outpoint.hash], outpoint.n, nDepth);
          vOutputs.push_back(out);
      }
  }
@@ -416,7 +418,9 @@ bool WalletModel::getPubKey(const CKeyID &address, CPubKey& vchPubKeyOut) const
      BOOST_FOREACH(const COutPoint& outpoint, vLockedCoins)
      {
          if (!wallet->mapWallet.count(outpoint.hash)) continue;
-         COutput out(&wallet->mapWallet[outpoint.hash], outpoint.n, wallet->mapWallet[outpoint.hash].GetDepthInMainChain());
+         int nDepth = wallet->mapWallet[outpoint.hash].GetDepthInMainChain();
+         if (nDepth < 0) continue;
+         COutput out(&wallet->mapWallet[outpoint.hash], outpoint.n, nDepth);
          vCoins.push_back(out);
      }
  
