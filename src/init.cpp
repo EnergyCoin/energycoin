@@ -27,6 +27,7 @@ using namespace boost;
 CWallet* pwalletMain;
 CClientUIInterface uiInterface;
 bool fConfChange;
+bool fUseFastIndex;
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -362,6 +363,7 @@ bool AppInit2()
         // even when -connect or -proxy is specified
         SoftSetBoolArg("-listen", true);
     }
+	fUseFastIndex = GetBoolArg("-fastindex", true);
 
     if (mapArgs.count("-connect") && mapMultiArgs["-connect"].size() > 0) {
         // when only connecting to trusted nodes, do not seed via DNS, or listen by default

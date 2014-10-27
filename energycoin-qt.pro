@@ -28,6 +28,10 @@ OPENSSL_INCLUDE_PATH=C:/openssl-1.0.1g/include
 OPENSSL_LIB_PATH=C:/openssl-1.0.1g
 MINIUPNPC_INCLUDE_PATH=C:/
 MINIUPNPC_LIB_PATH=C:/miniupnpc-1.6-mgw
+#LIBPNG_INCLUDE_PATH=C:/libpng-1.6.12
+#LIBPNG_LIB_PATH=C:/libpng-1.6.12/.libs
+#QRENCODE_INCLUDE_PATH=C:/qrencode-3.4.4
+#QRENCODE_LIB_PATH=C:/qrencode-3.4.4/.libs
 
 OBJECTS_DIR = build
 MOC_DIR = build
