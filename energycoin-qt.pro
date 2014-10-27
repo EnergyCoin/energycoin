@@ -10,7 +10,7 @@ greaterThan(QT_MAJOR_VERSION, 4) {
      DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0
  }
  
-# UNCOMMENT THIS SECTION TO BUILD ON WINDOWS
+# UNCOMMENT THIS SECTION TO BUILD ON WINDOWS 
 # Change paths if needed, these use the Energycoin/ repository locations
 
 # Dependency library locations can be customized with:
