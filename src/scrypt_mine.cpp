@@ -25,7 +25,7 @@
  *
  * This file was originally written by Colin Percival as part of the Tarsnap
  * online backup system.
- */
+ */ 
 
 #include <stdlib.h>
 #include <stdint.h>
