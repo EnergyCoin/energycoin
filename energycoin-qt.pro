@@ -10,7 +10,7 @@ greaterThan(QT_MAJOR_VERSION, 4) {
      DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0
  }
  
-# UNCOMMENT THIS SECTION TO BUILD ON WINDOWS
+# UNCOMMENT THIS SECTION TO BUILD ON WINDOWS 
 # Change paths if needed, these use the Energycoin/ repository locations
 
 # Dependency library locations can be customized with:
@@ -19,15 +19,15 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 
 # For Windows, specify path and options from command line:
 #   qmake energycoin-qt.pro RELEASE=1 USE_UPNP=1 -config release QMAKE_LFLAGS+="-static-libgcc -static-libstdc++" BOOST_INCLUDE_PATH=C:/MinGW/msys/1.0/local/include BOOST_LIB_PATH=C:/MinGW/msys/1.0/local/lib BOOST_LIB_SUFFIX=-mgw46-mt-s-1_54
-BOOST_LIB_SUFFIX=-mgw48-mt-s-1_50 
-BOOST_INCLUDE_PATH=C:/boost-1.50.0-mgw
-BOOST_LIB_PATH=C:/boost-1.50.0-mgw/stage/lib
-BDB_INCLUDE_PATH=C:/db-4.8.30.NC-mgw/build_unix
-BDB_LIB_PATH=C:/db-4.8.30.NC-mgw/build_unix
-OPENSSL_INCLUDE_PATH=C:/openssl-1.0.1g/include
-OPENSSL_LIB_PATH=C:/openssl-1.0.1g
-MINIUPNPC_INCLUDE_PATH=C:/
-MINIUPNPC_LIB_PATH=C:/miniupnpc-1.6-mgw
+#BOOST_LIB_SUFFIX=-mgw48-mt-s-1_50 
+#BOOST_INCLUDE_PATH=C:/boost-1.50.0-mgw
+#BOOST_LIB_PATH=C:/boost-1.50.0-mgw/stage/lib
+#BDB_INCLUDE_PATH=C:/db-4.8.30.NC-mgw/build_unix
+#BDB_LIB_PATH=C:/db-4.8.30.NC-mgw/build_unix
+#OPENSSL_INCLUDE_PATH=C:/openssl-1.0.1g/include
+#OPENSSL_LIB_PATH=C:/openssl-1.0.1g
+#MINIUPNPC_INCLUDE_PATH=C:/
+#MINIUPNPC_LIB_PATH=C:/miniupnpc-1.6-mgw
 #LIBPNG_INCLUDE_PATH=C:/libpng-1.6.12
 #LIBPNG_LIB_PATH=C:/libpng-1.6.12/.libs
 #QRENCODE_INCLUDE_PATH=C:/qrencode-3.4.4
@@ -125,8 +125,8 @@ contains(BENRGOIN_NEED_QT_PLUGINS, 1) {
     DEFINES += HAVE_BUILD_INFO
 }
 
-QMAKE_CXXFLAGS += -msse2
-QMAKE_CFLAGS += -msse2
+#QMAKE_CXXFLAGS += -msse2
+#QMAKE_CFLAGS += -msse2
 QMAKE_CXXFLAGS_WARN_ON = -fdiagnostics-show-option -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -Wstack-protector
 
 # Input
